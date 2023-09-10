@@ -9,8 +9,8 @@
 		<title>Open Source Software Etiquette</title>
 	</head>
 	<body>
+		<h2 style="font-size: 48px">🚧 This website is in construction! 🚧</h2>
 		<h1>Open Source Software Etiquette</h1>
-		<h2>🚧 This website is in construction! 🚧</h2>
 		<p>
 			Thank you for being involved in an open-source project! You were probably linked to
 			this page because someone thought you did not practice open-source software
@@ -20,27 +20,88 @@
 			Below are some guidelines, ordered roughly by what (I think) is important. This site
 			is for people that comment on issues or pull requests.
 		</p>
+		<p>
+			These items are <em>additions</em> on top of standard netiquette guidelines (<a
+				href="https://coursedesign.colostate.edu/obj/corerulesnet.html"
+				>link 1</a
+			>) (<a href="https://www.ietf.org/rfc/rfc1855.txt">link 2</a>)
+		</p>
+
+		<ol>
+			<li>Before filing a GitHub issue</li>
+			<li>When filing a GitHub</li>
+		</ol>
 
 		<section>
 			<h2>
-				The maintainer provides their time and code to you, free of charge. Respect them.
+				Most open-source maintainers volunteer their time and money to write code (that's
+				often freely distributable). <em>Be decent</em>
 			</h2>
-			<p>This might sound a bit harsh.</p>
+			<p>
+				For example, it would be disrespectful to berate a soup kitchen volunteer for
+				making an honest mistake. Or, if a gardener was providing the fruits of their
+				labor to their community, it would be indecent to tell that gardener how
+				<em>you</em> think they should garden if you were a passerbyer.
+			</p>
 			<article>
 				<h3>❌ Bad</h3>
+				<blockquote>
+					Why are you still using <tt>$OLD_BUILD_SYSTEM?</tt> You should update the build
+					system to <tt>$NEW_BUILD_SYSTEM_1</tt> or <tt>NEW_BUILD_SYSTEM2</tt>.
+				</blockquote>
 				<h3>✅ Good</h3>
+				<blockquote>
+					<em>Make no comment.</em>
+				</blockquote>
 			</article>
 		</section>
 		<section>
 			<h2><em>Please</em> properly format your issues</h2>
 			<p>
-				There are few things worse than someone who has reported an issue, but has not put
-				in the issue to make their problem understandable. Of course, we understand if
-				English is not your first language, but...
+				Maintainers often put time into <em>reading</em> and <em>responding</em> to
+				issues. The <em>least</em> you could do is spent time to write an issue that's
+				easy to read and understand. This isn't targeted at people where English is not
+				their first language, but people who know better when filling an issue. If you are
+				using Google Translate (looking at your Americans!), it is your responsibility to
+				specify that you're using it, and write things in simple terms so translation is
+				successful. Code is the least common denominator across languages, so use that to
+				your advantage.
+			</p>
+			<p>
+				See this
+				<a href="https://www.markdownguide.org/cheat-sheet">Markdown cheat sheet</a>. If
+				there is an issue template, fill it out <em>to the best of your ability.</em>
 			</p>
 			<article>
 				<h3>❌ Bad</h3>
+				<blockquote>
+					Issue title: I want ot be able to just quick install program like in a
+					packagemanager with a single command insted of plugin add then install then add
+					to global
+				</blockquote>
+				<blockquote>
+					I have a lot of tool to install so i wan to be able to have a cli simple instead
+					of program1 plugin add $tooltoinstall && program1 install $tooltoinstall latest
+					&& program1 global $tooltoinstall latest and when i try program1 on first run i
+					want to be able to just program1 install programname and by default it add or
+					propose to add the plugin and make it local or global by default.
+				</blockquote>
 				<h3>✅ Good</h3>
+				<blockquote>
+					Issue title: Quick install asdf plugin (like in a package manager) with a single
+					command
+				</blockquote>
+				<blockquote>
+					I have a lot of tool to install so I want to be able to have a CLI simple
+					install. Instead of:
+					<code
+						>program1 plugin add $tool_to_install program1 install $tool_to_install latest
+						program1 global $tool_to_install latest</code
+					>
+					I just want <code>program1 install programname</code> and by default it add or
+					propose to add the plugin and make it local or global by default.
+				</blockquote>
+				<blockquote></blockquote>
 			</article>
 		</section>
 
@@ -53,17 +114,12 @@
 		</section>
 
 		<section>
-			<h2>Look at pre-existing sources.If ther is documentation, read it</h2>
+			<h2>Look at pre-existing sources. If there is documentation, read it</h2>
 			<p>
 				If you have a question, look at pre-existing questions on the issue tracker,
 				documentation or Google search, or Discord, or community forum. If you wish to
 				file an issue, look for pre-existing ones in the bug tracker.
 			</p>
-		</section>
-
-		<section>
-			<h2>Say please and thank you</h2>
-			<p>This is part of general netiquite guidlines</p>
 		</section>
 
 		<section>
