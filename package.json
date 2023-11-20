@@ -1,6 +1,19 @@
 {
+	"private": true,
 	"devDependencies": {
-		"prettier": "^3.0.1",
-		"@hyperupcall/prettier-config": "^0.6.0"
+		"@hyperupcall/prettier-config": "^0.7.0",
+		"prettier": "^3.1.0",
+		"prettier-plugin-pkg": "^0.18.0",
+		"sass": "^1.69.5"
+	},
+	"license": "MPL-2.0",
+	"description": "Etiquette for interacting with Open Source maintainers.",
+	"author": "Edwin Kofler <edwin@kofler.dev> (https://edwinkofler.com)",
+	"bugs": {
+		"url": "https://github.com/fox-projects/opensourceetiquette.com/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fox-projects/opensourceetiquette.com.git"
 	}
 }
